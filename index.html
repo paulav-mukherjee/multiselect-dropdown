@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="title" style="text-align: center; color: blue;">
+        <h2>A Multiselect Dropdown Element with Checkbox</h2>
+        <small>Created by Paulav Mukherjee</small>
+    </div>
+    
+    <div class="wrapper">
+        <div class="multiselect" readonly="false" value=[val1,val2]>
+            <input class="dropdown-head" type="text" placeholder="val1, val2" onclick="expand()" />
+            <label> ← Multiselect Dropdown  </label>
+    
+        </div>
+    
+        <div class="dropdown-body">
+            <label>
+                <input type="checkbox" name="" id="val1" value="val1" autocomplete="off"/>
+                Value 1
+            </label>
+            <label>
+                <input type="checkbox" name="" id="val2" value="val2" autocomplete="off"/>
+                Value 2
+            </label>
+            <label>
+                <input type="checkbox" name="" id="val3" value="val3" autocomplete="off"/>
+                Value 3
+            </label>
+            <label>
+                <input type="checkbox" name="" id="val4" value="val4" autocomplete="off"/>
+                Value 4
+            </label>
+        </div>
+    </div>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
